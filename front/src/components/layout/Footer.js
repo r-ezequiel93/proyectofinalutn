@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = (props) => {
   return (
     <footer>
-      <p>Derechos reservados. Transporte X año</p>
+      <p>transportesX, creado por Gonzalez Rodrigo Ezequiel 2025</p>
     </footer>
   );
 };

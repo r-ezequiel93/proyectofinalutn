@@ -60,7 +60,7 @@ const ContactoPage = (props) => {
             </p>
             <p>
                 <label for="nombre">Mensaje</label>
-                <label htmlFor="mensaje">Mensaje</label>
+                <label htmlFor="mensaje"></label>
               <textarea name="mensaje" value={formData.mensaje} onChange={handleChange}></textarea>
 
             </p>
@@ -75,14 +75,14 @@ const ContactoPage = (props) => {
 
             </div>
             <div className="datos">
-                <h2>Otras vias de comunicacion</h2>
+                <h2> Vias de comunicacion</h2>
                 <p>Tambien puede contactarse con nosotros usando los siguientes medios</p>
                 <ul>
-                    <li>Telefono: 43242388</li>
+                    <li>Telefono: 4589-5844</li>
                     <li>Email:contacto@transportex.com.ar</li>
                     <li>Facebook</li>
                     <li>Twitter</li>
-                    <li>Skype</li>
+                    <li>Instagram</li>
                 </ul>
                 </div>
     </main>

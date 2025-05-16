@@ -58,6 +58,8 @@ router.get('/nuevo', function(req, res, next) {
 
 // Procesar formulario para agregar novedad
 router.post('/nuevo', async (req, res, next) => {
+  console.log('req.files:', req.files);
+  console.log('req.body:', req.body);
   try {
     let img_id = '';
 

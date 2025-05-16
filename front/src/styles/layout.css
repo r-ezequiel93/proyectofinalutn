@@ -1,5 +1,5 @@
 header {
-    background-color: cornflowerblue;
+    background-color: #B7E4C7;
     padding: 16px 0;
 }
 
@@ -15,7 +15,7 @@ header h1 {
 }
 
 footer {
-    background-color: cornflowerblue;
+    background-color: #B7E4C7;
     clear: both;
     color: burlywood;
     text-align: center;

@@ -33,7 +33,7 @@
   font-weight: bold;
   font-style: italic;
   font-size: 22px;
-  background-color: #87CEFA;
+  background-color:#B7E4C7 ;
   display: block;
   margin-bottom: 8px; /* Espacio entre la cita y el autor */
 }
@@ -41,7 +41,7 @@
 .testimonio .autor {
   font-size: 10px;
   text-align: center;
-  background-color: beige;
+  background-color:#E0F0FF;
   display: block;
   margin-top: auto; /* Empuja el autor hacia la parte inferior */
 }
