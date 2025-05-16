@@ -1,10 +1,11 @@
 import './../styles/home.css';
-import camion from '../pages/istockphoto-1465157700-612x612.jpg'
+import "./../styles/novedades.css";
+import chasis from '../pages/sistemas-seguridad-camiones.webp';
 const HomePage = (props) => {
     return (
         <main className="holder">
             <div className="homeimg">
-                <img src={camion} alt="Camión de carga" style={{ width: '50%' }} />
+                <img src={chasis} alt="Camión de carga" style={{ width: '50%' }} />
 
             </div>
             <div className="columnas">
@@ -24,12 +25,12 @@ const HomePage = (props) => {
                 <div className="testimonios right">
                     <h2>Testimonios</h2>
                     <div className="testimonio">
-                        <span className="cita">un servicio de calidad</span>
+                        <span className="cita"> "muy conforme, servicio de calidad" </span>
                         <span className="autor">Gomez Ezequiel</span>
 
-                        <h2>Testimonios</h2>
+                        
                         <div className="testimonio">
-                            <span className="cita">Envios rapidos y confiables</span>
+                            <span className="cita"> "Envios rapidos y confiables" </span>
                             <span className="autor">Mendez Soledad</span>
 
                         </div>
